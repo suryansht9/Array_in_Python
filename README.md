@@ -1,4 +1,4 @@
-# Array in Python
+# Numpy in Python
 
 ## Overview
 A beginner-friendly guide to working with arrays in Python using built-in lists and NumPy.
@@ -16,4 +16,4 @@ A beginner-friendly guide to working with arrays in Python using built-in lists 
 
 ## How to Run
 ```bash
-python array.py
+python numpy.py
