@@ -38,9 +38,10 @@ arr3d=arr.reshape(1,2,4)
 print(arr3d)
 print(arr3d.shape,"this is shape of matrix")'''
 #CONVERSION OF 2D TO 4D{5 prog}
-import numpy as np
+'''import numpy as np
 s=([[2,3,4,5],[6,7,8,9]])
 arr=np.array(s)
 print(arr.reshape(1,2,2,2))
 print(arr.reshape(1,1,2,2,2))
 print(arr.shape,"this is the shape of matrix")
+'''
