@@ -45,3 +45,17 @@ print(arr.reshape(1,2,2,2))
 print(arr.reshape(1,1,2,2,2))
 print(arr.shape,"this is the shape of matrix")
 '''
+#{6 prog}
+'''
+import numpy as np
+
+# Create a 1D array with 10 elements
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+# Reshape into 5D equivalents
+print("Reshape to (1, 2, 5):")
+print(arr.reshape(1, 2, 5))
+
+print("Reshape to (1, 5, 2):")
+print(arr.reshape(1, 5, 2))
+'''
